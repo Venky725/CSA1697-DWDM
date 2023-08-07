@@ -1,0 +1,13 @@
+ A=c(18,2,20)
+ B=c(22,28,10)
+ C=c(20,40,40)
+ d=cov(B,C)
+ d
+ k=cor(B,C)
+ k
+ v<-matrix(c(18,2,20,22,28,10,20,40,40),nrow=3,ncol=3,byrow=TRUE)
+ v
+ x=cov(v)
+ x
+ y=cor(v)
+ y
